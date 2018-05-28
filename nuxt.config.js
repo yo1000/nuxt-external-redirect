@@ -36,5 +36,12 @@ module.exports = {
         })
       }
     }
-  }
+  },
+
+  modules: [
+    ['@nuxtjs/redirect-module', [
+      { from: '^/redirect-in-mod', to: '/index2' },
+      { from: '^/redirect-ex-mod', to: 'https://zh.nuxtjs.org' },
+    ]],
+  ]
 }

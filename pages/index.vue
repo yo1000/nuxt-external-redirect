@@ -14,6 +14,12 @@
           target="_blank"
           class="button--grey">redirect(INTERNAL)</a>
         <a
+          href="/redirect-in-mod"
+          target="_blank"
+          class="button--grey">redirect(INTERNAL) &amp; redirect-module</a>
+      </div>
+      <div class="links">
+        <a
           href="/redirect-in-ego"
           target="_blank"
           class="button--grey">location.href = INTERNAL</a>
@@ -27,6 +33,12 @@
           href="/redirect-ex"
           target="_blank"
           class="button--grey">redirect(EXTERNAL)</a>
+        <a
+          href="/redirect-ex-mod"
+          target="_blank"
+          class="button--grey">redirect(EXTERNAL) &amp; redirect-module</a>
+      </div>
+      <div class="links">
         <a
           href="/redirect-ex-ego"
           target="_blank"
